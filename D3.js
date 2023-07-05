@@ -130,7 +130,7 @@ console.log(femaleCharacters);
   Crea un oggetto "eyeColor" che abbia le seguenti proprietà: blue, yellow, brown, red, blue-gray.
   Ad ognuna di queste proprietà assegna come valore un array vuoto.
 */
-eye_color = {
+let eye_color = {
   blue: [],
   yellow: [],
   brown: [],
