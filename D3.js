@@ -108,7 +108,7 @@ let characters = [];
 
 /* ESERCIZIO 2
   Utilizzando un ciclo for, cicla l'array "starWarsCharacters".
-  Dovrai accedere alla proprietà "name" di ogni oggetto in esso contenuto, e inserirla nell'array "starWarsCharacters" creato precedentemente.
+  Dovrai accedere alla proprietà "name" di ogni oggetto in esso contenuto, e inserirla nell'array "Characters" creato precedentemente.
   Come risultato dovresti ottenere qualcosa di simile: ["Luke Skywalker", "C-3PO", "R2-D2", etc..]
 */
 for (let i = 0; i < starWarsCharacters.length; i++) {
@@ -135,7 +135,7 @@ let eye_color = {
   yellow: [],
   brown: [],
   red: [],
-  blue_Gray: [],
+  "blue-Gray": [],
 };
 
 /* ESERCIZIO 5
@@ -157,7 +157,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
       eye_color.red.push(starWarsCharacters[i]);
       break;
     case "blue-gray":
-      eye_color.blue_Gray.push(starWarsCharacters[i]);
+      eye_color["blue-Gray"].push(starWarsCharacters[i]);
       break;
   }
 }
